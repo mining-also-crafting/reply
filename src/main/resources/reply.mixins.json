@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.reply.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MessageCommandMixin",
+		"MinecraftServerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

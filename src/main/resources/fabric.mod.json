@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "reply",
+	"version": "${version}",
+	"name": "/r",
+	"description": "Adds a command - /r <message> - so players can easily reply to the last person that whispered them.",
+	"authors": [
+		"mining-also-crafting"
+	],
+	"contact": {
+		"sources": "https://github.com/mining-also-crafting/reply"
+	},
+	"license": "MIT",
+	"icon": "assets/reply/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"server": [
+			"com.reply.Reply"
+		]
+	},
+	"mixins": [
+		"reply.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.8",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
