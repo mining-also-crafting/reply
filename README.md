@@ -6,6 +6,7 @@ This mod was made using the Fabric [Template mod generator](https://fabricmc.net
 
 ### How to use 
 - Ensure your server loads Minecraft 1.21+ with Fabric Loader 0.16.8+
+- Ensure your server has [Fabric API](https://modrinth.com/mod/fabric-api) in the mods folder.
 - Add the .jar to your server's mods folder and start the server.
 
 No configuration required. Simply reply to messages with `/r <message>`.
